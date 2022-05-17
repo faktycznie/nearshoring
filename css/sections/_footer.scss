@@ -1,0 +1,194 @@
+.footer {
+	padding: 60px 0;
+	background: #111;
+	color: rgba(#fff, 0.4);
+	a {
+		color: inherit;
+		&:hover {
+			color: $style;
+		}
+	}
+}
+
+.contact {
+	display: flex;
+	//flex-wrap: wrap;
+	justify-content: space-between;
+	@media(max-width: 1140px) {
+		flex-wrap: wrap;
+	}
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 80px;
+	}
+	&__title {
+		color: #fff;
+	}
+	&__copyform {
+		flex-basis: 70%;
+		display: flex;
+		flex-direction: column;
+		padding-right: 80px;
+		//ugly but I don't have time
+		@media(max-width: 1140px) {
+			padding-right: 0;
+			flex-basis: 100%;
+		}
+	}
+	&__box {
+		flex-grow: 1;
+		border-left: 1px solid $style;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 80px;
+		@media(max-width: 1140px) {
+			order: -1;
+			padding-left: 0;
+			border: none;
+		}
+	}
+	&__form {
+		flex-grow: 1;
+		font-size: 14px;
+		max-width: 836px;
+		.row {
+			margin-bottom: 45px;
+		}
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			font-size: 18px;
+			line-height: 27px;
+			padding: 27px 0;
+			width: 100%;
+			background: transparent;
+			color: #fff;
+			border: none;
+			border-bottom: 1px solid #fff;
+			@include placeholder() {
+				color: #fff;
+				opacity: 0.4;
+			}
+		}
+		textarea {
+			height: 180px;
+			max-width: 100%;
+		}
+		.readmore-wrapper {
+			color: #fff;
+		}
+		p {
+			line-height: 21px;
+		}
+	}
+	.contact-box {
+		color: #fff;
+	}
+}
+
+.copyrights {
+	margin: 60px 0 0;
+	align-self: flex-end;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	&__divider {
+		margin: 0 15px;
+	}
+	&__menu {
+		flex-grow: 1;
+		margin-left: 100px;
+	}
+	@media(max-width: 969px) {
+		justify-content: center;
+		&__menu {
+			order: -1;
+			margin: 0 0 20px;
+		}
+	}
+}
+
+.contact-box {
+	line-height: 30px;
+	padding: 40px 0;
+	@media(max-width: 767px) {
+		padding: 30px 0;
+	}
+	&__name {
+		font-size: 28px;
+		color: $style;
+	}
+	&__subtitle {
+		opacity: 0.6;
+	}
+	&__phone {
+		display: block;
+		.smaller {
+			font-size: 18px;
+		}
+	}
+	&__mail {
+		display: block;
+	}
+	&__label {
+		font-size: 18px;
+		opacity: 0.6;
+		@media(max-width: 480px) {
+			display: block;
+		}
+	}
+}
+
+.readmore-wrapper {
+	position: relative;
+	button,
+	.btn {
+		font-size: 18px;
+		padding: 10px 0;
+		background: none;
+		border: none;
+		color: inherit;
+		position: relative;
+		&:hover {
+			color: $style;
+		}
+	}
+	&:after {
+		content: url(../img/icon_readmore.svg);
+		width: 8px;
+		height: 16px;
+		margin-left: 18px;
+	}
+}
+
+.footer-nav {
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		@media(max-width: 480px) {
+			flex-direction: column;
+			justify-content: center;
+		}
+		> .menu-item {
+			> a {
+				display: flex;
+				padding: 0 15px;
+				font-size: 18px;
+				line-height: 22px;
+				transition: all ease-in-out 0.3s;
+				&:hover {
+					color: $style;
+				}
+			}
+		}
+	}
+}

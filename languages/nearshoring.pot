@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-31 11:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+#, php-format
+msgid "Skontaktuj się %s z nami"
+msgstr ""
+
+#: footer.php:29
+msgid "&copy; Copyright 2022"
+msgstr ""
+
+#: front-page.php:37
+msgid "Mniej"
+msgstr ""
+
+#: front-page.php:38
+msgid "Więcej"
+msgstr ""
+
+#: front-page.php:57 sidebar.php:103
+msgid "Aktualności"
+msgstr ""
+
+#: front-page.php:58
+msgid "Powiadom o nowych artykułach"
+msgstr ""
+
+#: front-page.php:99
+msgid "Prev"
+msgstr ""
+
+#: front-page.php:100
+msgid "Next"
+msgstr ""
+
+#: front-page.php:112
+msgid "Partnerzy"
+msgstr ""
+
+#: front-page.php:121
+msgid "Znajdź target"
+msgstr ""
+
+#: front-page.php:132
+msgid "Znajdź nieruchomość"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:54
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130 functions.php:141
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:139
+msgid "Hero"
+msgstr ""
+
+#: functions.php:237
+msgid "Zespół"
+msgstr ""
+
+#: functions.php:238
+msgid "Item"
+msgstr ""
+
+#: functions.php:239
+msgid "Add New"
+msgstr ""
+
+#: functions.php:240
+msgid "Add New Item"
+msgstr ""
+
+#: functions.php:241
+msgid "Edit Item"
+msgstr ""
+
+#: functions.php:242
+msgid "New Item"
+msgstr ""
+
+#: functions.php:243
+msgid "View Item"
+msgstr ""
+
+#: functions.php:244
+msgid "Search Item"
+msgstr ""
+
+#: functions.php:245
+msgid "No Items found"
+msgstr ""
+
+#: functions.php:246
+msgid "No Items found in Trash"
+msgstr ""
+
+#: functions.php:262
+msgid "autor"
+msgstr ""
+
+#: functions.php:271 functions.php:272
+msgid "Newslettery"
+msgstr ""
+
+#: functions.php:384 functions.php:385
+msgid "Theme Settings"
+msgstr ""
+
+#: functions.php:406
+msgid "Strona główna"
+msgstr ""
+
+#: functions.php:501
+msgid "Wyniki wyszukiwania: "
+msgstr ""
+
+#: functions.php:503
+msgid "Error 404"
+msgstr ""
+
+#: header.php:70
+msgid "Open menu"
+msgstr ""
+
+#: header.php:104
+msgid "Szukaj..."
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "Wyniki wyszukiwania: %s"
+msgstr ""
+
+#: search.php:33
+msgid "https://jdp-law.pl"
+msgstr ""
+
+#: search.php:34
+msgid "Kancelaria JDP"
+msgstr ""
+
+#: sidebar.php:64
+msgid "Sekcje"
+msgstr ""
+
+#: single.php:37
+msgid "Udostępnij"
+msgstr ""
+
+#: single.php:39
+msgid "Facebook"
+msgstr ""
+
+#: single.php:44
+msgid "Twitter"
+msgstr ""
+
+#: single.php:53
+msgid "Linkedin"
+msgstr ""
+
+#: inc/template-tags.php:37
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "Czytaj"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nie znaleziono"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Nie znaleziono, spróbuj użyć innych kryteriów."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "Nie znaleziono, spróbuj wyszuakać interesujące materiały."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:35
+msgid "Strony:"
+msgstr ""
+
+#: template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/sections.php:2
+msgid "Działy"
+msgstr ""

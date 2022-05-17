@@ -1,0 +1,42 @@
+.btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	display: inline-block;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	background: $style;
+	color: #fff;
+	padding: 10px 20px;
+	font-family: inherit;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	cursor: pointer;
+	transition: all ease-in-out 0.2s;
+	&:hover {
+		color: #fff;
+		background: lighten($style, 5%);
+	}
+
+	&:focus,
+	&.active,
+	&:active {
+		outline: 0;
+	}
+
+	// Disabled state
+	&.disabled,
+	&[disabled] {
+		cursor: default;
+		opacity: .65;
+	}
+
+	@media screen and (min-width: 992px) {
+		padding: 18px 57px;
+		font-size: 20px;
+	}
+}

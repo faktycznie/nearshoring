@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 14:04+0100\n"
+"PO-Revision-Date: 2022-01-10 12:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.3"
+
+#: archive.php:71
+msgid "Artykuły"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+#, php-format
+msgid "Skontaktuj się %s z nami"
+msgstr ""
+
+#: footer.php:29
+msgid "&copy; Copyright 2022"
+msgstr ""
+
+#: front-page.php:21
+msgid "Partnerzy"
+msgstr ""
+
+#: front-page.php:30
+msgid "Znajdź target"
+msgstr ""
+
+#: front-page.php:41
+msgid "Znajdź nieruchomość"
+msgstr ""
+
+#: front-page.php:55 sidebar.php:72
+msgid "Aktualności"
+msgstr ""
+
+#: front-page.php:56
+msgid "Powiadom o nowych artykułach"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:54
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:195 sidebar.php:41
+msgid "Sekcje"
+msgstr ""
+
+#: functions.php:196 functions.php:227
+msgid "Item"
+msgstr ""
+
+#: functions.php:197 functions.php:228
+msgid "Add New"
+msgstr ""
+
+#: functions.php:198 functions.php:229
+msgid "Add New Item"
+msgstr ""
+
+#: functions.php:199 functions.php:230
+msgid "Edit Item"
+msgstr ""
+
+#: functions.php:200 functions.php:231
+msgid "New Item"
+msgstr ""
+
+#: functions.php:201 functions.php:232
+msgid "View Item"
+msgstr ""
+
+#: functions.php:202 functions.php:233
+msgid "Search Item"
+msgstr ""
+
+#: functions.php:203 functions.php:234
+msgid "No Items found"
+msgstr ""
+
+#: functions.php:204 functions.php:235
+msgid "No Items found in Trash"
+msgstr ""
+
+#: functions.php:220
+msgid "sekcja"
+msgstr ""
+
+#: functions.php:226
+msgid "Zespół"
+msgstr ""
+
+#: functions.php:251
+msgid "autor"
+msgstr ""
+
+#: functions.php:260 functions.php:261
+msgid "Newslettery"
+msgstr ""
+
+#: functions.php:282
+msgid "Kategorie sekcji"
+msgstr ""
+
+#: functions.php:283
+msgid "Kategoria sekcji"
+msgstr ""
+
+#: functions.php:284
+msgid "Szukaj kategorii sekcji"
+msgstr ""
+
+#: functions.php:285
+msgid "Popularne kategorie sekcji"
+msgstr ""
+
+#: functions.php:286
+msgid "Wszystkie kategorie sekcji"
+msgstr ""
+
+#: functions.php:287
+msgid "Rodzic kategorii"
+msgstr ""
+
+#: functions.php:288
+msgid "Rodzic kategorii:"
+msgstr ""
+
+#: functions.php:289
+msgid "Edytuj kategorie"
+msgstr ""
+
+#: functions.php:290
+msgid "Zaktualizuj kategorie"
+msgstr ""
+
+#: functions.php:291
+msgid "Dodaj kategorie"
+msgstr ""
+
+#: functions.php:292
+msgid "Nowa nazwa kategorii"
+msgstr ""
+
+#: functions.php:293
+msgid "Oddziel kategorie przecinkami"
+msgstr ""
+
+#: functions.php:294
+msgid "Dodaj lub usuń kategorię"
+msgstr ""
+
+#: functions.php:295
+msgid "Wybierz najpopularniejsze kategorie"
+msgstr ""
+
+#: functions.php:296
+msgid "Kategorie"
+msgstr ""
+
+#: functions.php:308
+msgid "sekcje"
+msgstr ""
+
+#: functions.php:377 functions.php:378
+msgid "Theme Settings"
+msgstr ""
+
+#: header.php:62
+msgid "Open menu"
+msgstr ""
+
+#: header.php:96
+msgid "Szukaj..."
+msgstr ""
+
+#: search.php:25
+#, php-format
+msgid "Wyniki wyszukiwania: %s"
+msgstr ""
+
+#: inc/template-tags.php:37
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "Czytaj"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nie znaleziono"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Nie znaleziono, spróbuj użyć innych kryteriów."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "Nie znaleziono, spróbuj wyszuakać interesujące materiały."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:35
+msgid "Strony:"
+msgstr ""
+
+#: template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/sections.php:2
+msgid "Działy"
+msgstr ""
